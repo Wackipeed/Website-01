@@ -1,12 +1,47 @@
 HTML
 
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Website</title>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my JavaScript site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cg Artiesta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Title -->
+  <header>
+    <h1>Featured</h1>
+  </header>
+
+  <!-- Slider Container -->
+  <main class="slider-container">
+    <div class="slider">
+      <div class="slide active">
+        <img src="https://img-new.cgtrader.com/items/6297417/65adfc737e/mustang-3d-model-65adfc737e.webp" alt="Product 1">
+        <p class="caption">Product 1 - Ford Mustang</p>
+      </div>
+      <div class="slide active">
+        <img src="https://img-new.cgtrader.com/items/4526566/5edd9f62b7/wolf-animation-vfx-grace-3d-model-5edd9f62b7.jpg" alt="Product 2">
+        <p class="caption">Product 2 - Wolf</p>
+      </div>
+      <div class="slide active">
+        <img src="https://img-new.cgtrader.com/items/2865700/3a1b5027a1/basic-medieval-castle-pack-3d-model-3a1b5027a1.webp" alt="Product 3">
+        <p class="caption">Product 3 - Castle</p>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="btn prev" id="prevBtn">&#10094;</button>
+    <button class="btn next" id="nextBtn">&#10095;</button>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Cg Artiesta. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
